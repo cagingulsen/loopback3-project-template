@@ -59,9 +59,11 @@
     "radix": "error",
     "id-length": ["error", { "exceptions": ["_", "i", "j"] }],
     "camelcase": "error",
+    /*
     "new-cap": ["error", {
         "capIsNew": true
     }],
+    */
     "no-underscore-dangle": "error"
   }
 }

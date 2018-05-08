@@ -10,6 +10,6 @@
     "user": "user",
     "password": "password",
     "name": "name",
-    "connector": "mysql"
+    "connector": "mssql"
   }
 }
