@@ -1,0 +1,67 @@
+{
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true
+  },
+  "rules": {
+    "prefer-const": ["error", {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
+    }],
+    "no-const-assign": "error",
+    "no-var": "error",
+    "no-new-object": "error",
+    "no-array-constructor": "error",
+    "quotes": ["error", "single", {
+      "allowTemplateLiterals": true
+    }],
+    "no-eval": "error",
+    "no-useless-escape": "error",
+    "dot-notation": "error",
+    "no-restricted-properties": [2, {
+      "object": "Math",
+      "property": "pow",
+      "message": "Please use exponentiation operator for this operation."
+    }],
+    "one-var": ["error", "never"],
+    "no-undef": "error",
+    "no-plusplus": "error",
+    "eqeqeq": ["error", "smart"],
+    "no-case-declarations": "error",
+    "no-nested-ternary": "error",
+    "no-unneeded-ternary": "error",
+    "brace-style": "error",
+    "spaced-comment": ["error", "always", {
+      "block": { "balanced": true }
+    }],
+    "indent": ["error", 4],
+    "space-before-blocks": "error",
+    "keyword-spacing": ["error", {
+      "before": true,
+      "after": true
+    }],
+    "space-infix-ops": "error",
+    "eol-last": ["error", "always"],
+    "newline-per-chained-call": "error",
+    "padded-blocks": ["error", "never"],
+    "space-in-parens": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "object-curly-spacing": ["error", "always"],
+    "max-len": ["error", 100, {
+      "ignoreUrls": true,
+      "ignoreStrings": true,
+      "ignoreRegExpLiterals": true
+    }],
+    "comma-style": ["error", "last"],
+    "comma-dangle": ["error", "always"],
+    "semi": ["error", "always"],
+    "radix": "error",
+    "id-length": ["error", { "exceptions": ["_", "i", "j"] }],
+    "camelcase": "error",
+    "new-cap": ["error", {
+        "capIsNew": true
+    }],
+    "no-underscore-dangle": "error"
+  }
+}

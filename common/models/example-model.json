@@ -1,0 +1,29 @@
+{
+  "name": "exampleModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true,
+      "mssql":
+      {
+        "columnName":"Id"
+      }
+    },
+    "name": {
+      "type": "string",
+      "mssql":
+      {
+        "columnName":"Name"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "datasourcename": {
+    "host": "0.0.0.0",
+    "port": 1433,
+    "database": "DB_NAME",
+    "user": "user",
+    "password": "password",
+    "name": "name",
+    "connector": "mysql"
+  }
+}
