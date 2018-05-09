@@ -1,3 +1,5 @@
+WARNING: Database fields should be configured in order to make the app and tests work. 
+
 # Project Name
 
 Project description.
