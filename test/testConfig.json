@@ -1,0 +1,13 @@
+{
+  "testDbServer": "0.0.0.0",
+  "testDbName": "TestDbName",
+  "testDbUser": "username",
+  "testDbPassword": "password",
+  "testDbRequestTimeout": 15000,
+  "testInfoLogFileName": "PROJECTNAME-test-info.log",
+  "testErrorLogFileName": "PROJECTNAME--testerror.log",
+  "logDatePattern": "/yyyy-MM-dd_HH_00/",
+  "logDir": "./testLogDir",
+  "maxLogSize": 2048000,
+  "maxLogFileNumber": 12
+}

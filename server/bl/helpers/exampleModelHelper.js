@@ -25,7 +25,7 @@ function exampleHelperWithCb(inputVariable, cb) {
  * @param inputVariable
  */
 function exampleHelperWithoutCb(inputVariable) {
-    return inputVariable + ' ヽ(͡◕ ͜ʖ ͡◕)ﾉ';
+    return inputVariable + ' :)';
 }
 
 const myAsyncOperation = function(inputNumber, cb) {

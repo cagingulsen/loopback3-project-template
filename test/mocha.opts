@@ -1,0 +1,4 @@
+--require ./test/init/bootstrap.js
+--recursive
+--ui bdd
+--timeout 4000
