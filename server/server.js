@@ -3,24 +3,11 @@
 const loopback = require('loopback');
 const boot = require('loopback-boot');
 const winston = require('winston');
-const config = require('./config.json');
 
 const app = module.exports = loopback();
 
 app.start = function() {
-    // WARNING: didnt need to set 'eol' parameter in windows environment
-    winston.add(
-        winston.transports.File, {
-            name: 'infoLog',
-            filename: config.infoLogFileName,
-            level: 'info',
-            json: true,
-            timestamp: true,
-            maxsize:'1000000',
-        }
-    );
-    
-    winston.info('Starting nodejs-template-project Server...');
+    winston.info('Starting loopback3-project-template Server...');
     
     // start the web server
     return app.listen(function() {

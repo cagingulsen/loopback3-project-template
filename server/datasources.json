@@ -9,7 +9,7 @@
     "database": "DB_NAME",
     "user": "user",
     "password": "password",
-    "name": "name",
-    "connector": "mssql"
+    "name": "datasourcename",
+    "connector": "mysql"
   }
 }
