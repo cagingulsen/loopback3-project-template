@@ -4,6 +4,7 @@ const winston = require('winston');
 
 /**
  * Async helper function example
+ *
  * @param inputVariable
  * @param cb
  */
@@ -20,14 +21,13 @@ function exampleHelperWithCb(inputVariable, cb) {
 
 /**
  * Sync helper function example
+ *
  * @param inputVariable
  */
 function exampleHelperWithoutCb(inputVariable) {
-    const result = inputVariable + inputVariable;
-    return result;
+    return inputVariable + ' ヽ(͡◕ ͜ʖ ͡◕)ﾉ';
 }
 
-// ignore following function
 const myAsyncOperation = function(inputNumber, cb) {
     cb(null, inputNumber);
 };

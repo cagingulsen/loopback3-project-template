@@ -1,6 +1,6 @@
 'use strict';
 
-const exampleModelController = require('../../server/bl/exampleModel/exampleModelController');
+const exampleModelController = require('../../server/bl/controllers/exampleModelController');
 
 module.exports = function(Examplemodel) {
     Examplemodel.customExampleModels = function (inputVariable, cb) {
