@@ -4,6 +4,10 @@
   "port": 4000,
   "errorLogFileName": "PROJECTNAME-error.log",
   "infoLogFileName": "PROJECTNAME-info.log",
+  "logDir": "../exampleProjectLogs",
+  "logDatePattern": "/yyyy-MM-dd_HH_00/",
+  "maxLogSize": 2048000,
+  "maxLogFileNumber": 12,
   "remoting": {
     "context": false,
     "rest": {
